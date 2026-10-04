@@ -14,28 +14,6 @@ source citations.
 - PyPDF
 - Streamlit
 
-## Architecture
-
-PDF Documents
-      ↓
-PDF Loader
-      ↓
-Text Splitting
-      ↓
-OpenAI Embeddings
-      ↓
-ChromaDB
-      ↓
-Similarity Search
-      ↓
-Relevant Documents
-      ↓
-OpenAI LLM
-      ↓
-Grounded Answer
-      ↓
-Source Citations
-
 ## Features
 
 - Multiple PDF document support
@@ -83,12 +61,3 @@ Explain the methodology used in the research.
 What problem does this document address?
 
 What are the key conclusions?
-
-## Important
-
-The application answers questions using the
-retrieved content from the uploaded PDFs.
-
-If information is not available in the documents,
-the application should indicate that the information
-was not found.
